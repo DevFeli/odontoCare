@@ -71,7 +71,7 @@ body{
 .logo > img{
     width: 250px;
     height: 150px;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     margin-top: 20px;
     /* box-shadow: 4px 3px 15px 5px rgba(0,0,0,0.87); */
 }
@@ -94,12 +94,12 @@ body{
 
 .menu-nav li a{
     text-decoration: none;
-    color: black;
+    /* color: black; */
     display: block;
     padding: 10px 20px;
-    background-color: var(--azul);
-    color: white;
-    border-radius: 5px;
+    background-color: white;
+    color: var(--azul);
+    /* border-radius: 5px; */
     /* box-shadow: 6px 8px 23px 3px rgba(0,0,0,0.86); */
     margin-left: 10px;
     transition: 0.3s;
@@ -184,7 +184,7 @@ body{
 .slide-itens > img{
     width: 100%;
     display: block;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     height: 500px;
     /* box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.87); */
 }
@@ -278,16 +278,16 @@ body{
 .concept{
     width: 100%;
     max-width: 1200px;
-    background-color: #192241;
+    background-color: white;
     margin: 20px auto;
     height: 150px;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .concept > h1{
-    color: white;
+    color: #192241;
     letter-spacing: 0.1rem;
     line-height: 2em;
     padding: 20px;
@@ -323,7 +323,7 @@ body{
     width: 350px;
     height: 300px;
     background-color: #192241;
-    border-radius: 10px;
+    /* border-radius: 10px; */
 }
 
 .card1{
@@ -369,7 +369,7 @@ body{
     margin-top: 250px;
     padding-top: 10px;
     background-color: #192241;
-    border-radius: 0px 0px 10px 10px;
+    /* border-radius: 0px 0px 10px 10px; */
     transition: 0.3s;
 }
 .tag:hover{
