@@ -28,6 +28,11 @@ body{
     z-index: 100;
 }
 
+.alt-icon{
+    display: flex;
+    gap: 20px;
+}
+
 .top-nav{
     width: 100%;
     max-width: 1200px;
