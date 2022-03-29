@@ -258,9 +258,18 @@ body{
         padding: 10px;
     }
 }
+@media(max-width:900px){
+    .slide-itens > img{
+        height: 500px;
+    }
+}
 @media(max-width:600px){
     .slide-itens > img{
         height: 300px;
+    }
+    .carousel{
+        width: 100%;
+        max-width: 600px;
     }
 }
 

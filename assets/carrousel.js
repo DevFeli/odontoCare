@@ -19,7 +19,7 @@ class SlideStories{
         if(this.active > 0){
         this.activeSlide(this.active - 1);
         }else{
-            this.activeSlide(this.active.length -  1);
+            this.activeSlide(this.active.length - 1);
         }
     };
     next(){
