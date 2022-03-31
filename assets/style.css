@@ -403,3 +403,116 @@ body{
         height: 300px;
     }
 }
+
+/* --------------------------------------------Other pages------------------------------------------------------ */
+
+/* --------------------------------------------quem somos------------------------------------------------------ */
+
+.par{
+    max-width: 1000px;
+    width: 100%;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: white;
+    border: 1px solid #192241;
+}
+.par h1{
+    text-align: center;
+    padding: 30px;
+}
+
+.par p{
+    letter-spacing: 0.1em;
+    line-height: 1.3em;
+    padding: 30px;
+}
+
+/* --------------------------------------------tratamentos------------------------------------------------------ */
+.navbar{
+    margin: 30px auto;
+    background-color: white;
+    padding: 30px;
+    border: 1px solid #192241;
+}
+
+@media(max-width:800px){
+    .navbar{
+        max-width: 600px;
+        width: 100%;
+        display: block;
+        overflow-x: auto;
+    }
+    .navbar ul{
+        margin-left: 200px;
+    }
+}
+@media(max-width:600px){
+    .navbar ul{
+        flex-direction: column;
+        margin: 0 auto;
+        align-items: center;
+    }
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.navbar li{
+    list-style: none;
+}
+.navbar li a{
+    text-decoration: none;
+    color: #192241;
+    padding: 10px 20px;
+}
+.navbar li a:hover{
+    background-color: #D3B16E;
+}
+.pic{
+    margin: 20px;
+}
+
+.pic1{
+    display: flex;
+    justify-content: center;
+}
+
+.cards-trata{
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+}
+
+.item1{
+    max-width: 350px;
+    width: 100%;
+    height: 300px;
+}
+.item2{
+    height: 400px;
+    background-color: white;
+    overflow: auto;
+}
+
+.texto{
+    max-width: 400px;
+    width: 100%;
+    height: 300px;
+    padding: 0 30px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.texto a{
+    display: block;
+    width: 100%;
+    background-color: antiquewhite;
+}
+
