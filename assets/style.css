@@ -427,6 +427,10 @@ body{
     padding: 30px;
 }
 
+.footer-page{
+   margin-top: 30vh;
+}
+
 /* --------------------------------------------tratamentos------------------------------------------------------ */
 .navbar{
     margin: 30px auto;
@@ -516,3 +520,50 @@ body{
     background-color: antiquewhite;
 }
 
+/* --------------------------------------------Contato------------------------------------------------------ */
+
+.contato{
+    width: 100%;
+    max-width: 600px;
+    background-color: white;
+    border: 1px solid #192241;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+}
+
+.form-contato{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.form-contato input{
+    width: 90%;
+    height: 30px;
+}
+
+.form-contato textarea{
+    width: 90%;
+}
+
+.form-contato label{
+    width: 90%;
+    margin-left: 0;
+    padding: 5px;
+}
+
+.form-contato button{
+    width: 90%;
+    height: 30px;
+    margin: 20px 0;
+}
+
+.mapa{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}

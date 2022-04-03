@@ -41,30 +41,25 @@
         </nav>
     </header>
     <main>
-        <section data-slide="slide" class="carousel">
-            <div class="slide-itens">
-                <img src="./img/home/01.jpg" alt="">
-                <img src="./img/home/02.jpg" alt="">
-                <img src="./img/home/03.jpg" alt="">
-                <img src="./img/home/04.jpg" alt="">
-                <img src="./img/home/05.jpg" alt="">
-            </div>
-            <nav class="slide-nav">
-                <div class="slide-thumb"></div>
-                <button class="slide-prev">Anterior</button>
-                <button class="slide-next">Próximo</button>
-            </nav>
-        </section>
-        <section class="concept">
-            <h1>Clínica odontológica que enfatiza atendimento humanizado e ético com soluções definitivas.</h1>
-        </section>
-        <section class="cards">
-            <a href="tratamentos.html"><div class="card1 iten"><h1 class="tag">Prevenção</h1></div></a>
-            <a href="tratamentos.html"><div class="card2 iten"><h1 class="tag">Ortodontia </h1></div></a>
-            <a href="tratamentos.html"><div class="card3 iten"><h1 class="tag">Endodontia </h1></div></a>
-            <a href="tratamentos.html"><div class="card4 iten"><h1 class="tag">Dentística </h1></div></a>
-            <a href="tratamentos.html"><div class="card5 iten"><h1 class="tag">Estética </h1></div></a>
-            <a href="tratamentos.html"><div class="card6 iten"><h1 class="tag">Prótese </h1></div></a>
+        <section class="contato">
+            
+            <form class="form-contato" action="https://formsubmit.co/contato@amorimodontocare.com.br" method="POST">
+                <h1>Fale conosco</h1>
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="name" required>
+                <label for="email">e-mail</label>
+                <input type="email" id="email" name="email" required>
+                <label for="menssagem">Menssagem</label>
+                <textarea name="message" id="menssagem" id="" cols="70" rows="10" required></textarea>
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="http://www.http://amorimodontocare.com.br/obrigado">
+                <button type="submit">Enviar</button>
+           </form>
+        </section> 
+
+        <section class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.6292119380005!2d-46.22728488447625!3d-23.545834966905343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce77c6589f9003%3A0x9435df5a58546ff0!2sAv.%20Alexandrina%20de%20Paula%2C%20945%20-%20Vila%20Nova%20Cintra%2C%20Mogi%20das%20Cruzes%20-%20SP%2C%2008744-090!5e0!3m2!1spt-BR!2sbr!4v1648952029818!5m2!1spt-BR!2sbr" 
+            width="600" height="450" style="border: 1px solid #192241;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
     </main>
     <footer>
