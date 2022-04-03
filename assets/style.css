@@ -567,3 +567,9 @@ body{
     justify-content: center;
     margin: 30px 0;
 }
+
+/* --------------------------------------------Obrigado------------------------------------------------------ */
+
+.msg-obrigado{
+    text-align: center;
+}
